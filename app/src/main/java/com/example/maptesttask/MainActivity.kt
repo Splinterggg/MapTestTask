@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback {
     }
 
 
-    private fun addClusteredGeoJsonSource(loadedMapStyle: Style): Style.Builder {
+    private fun addClusteredGeoJsonSource(loadedMapStyle: Style) {
         try {
             loadedMapStyle.addSource(
                 GeoJsonSource(
